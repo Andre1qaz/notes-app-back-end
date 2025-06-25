@@ -1,0 +1,1 @@
+console.log('agoh beta mambaen RESTful API');
