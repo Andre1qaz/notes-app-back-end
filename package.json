@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-"scripts": {
-  "start": "nodemon ./src/server.js",
-  "lint": "eslint ./src"
-}, 
+  "scripts": {
+    "start": "nodemon ./src/server.js",
+    "lint": "eslint ./src"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Andre1qaz/notes-app-back-end.git"
@@ -24,5 +24,8 @@
     "eslint-config-dicodingacademy": "^0.9.5",
     "globals": "^16.2.0",
     "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.4.0"
   }
 }
